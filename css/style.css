@@ -1,0 +1,182 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: serif;
+    font-size: 14px;
+    line-height: 24px;
+    height: 1400px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.green{
+    width: 600px;
+    height: 300px;
+    margin: 0px auto;
+    background: green;
+    position: relative;   
+}
+.red{
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-radius: 100%;
+    position: absolute;
+    top: 22%;
+    left: 36%;
+}
+.fb-share{
+    width: 150px;
+    position: fixed;
+    top: 0%;
+    right: -7%;
+    transition: 1s;
+}
+.fb-share:hover{
+    right: 0%;
+    cursor: pointer;
+}
+.social-icons{
+    width: 100%;
+    padding: 80px 0px;
+    text-align: center;
+}
+.social-icons li{
+    list-style: none;
+    display: inline-block;
+}
+.social-icons li a{
+    display: block;
+    font-size: 32px;
+    text-align: center;
+    margin: 0px 10px;
+    transition: 1s;
+}
+.social-icons li a .fa-facebook{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 100%;
+    background: #1877F2;
+    color:#fff;
+    border: 2px solid#1877F2;
+    transition: 0.3s;
+}
+.social-icons li a .fa-facebook:hover{
+    background: transparent;
+    color:#1877F2;
+    border: 2px solid#1877F2;
+}
+.social-icons li a .fa-youtube{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 100%;
+    background: #FF0000;
+    color:#fff;
+    border: 2px solid#FF0000;
+    transition: 0.3s;
+}
+.social-icons li a .fa-youtube:hover{
+    background: transparent;
+    color:#FF0000;
+    border: 2px solid#FF0000;
+}
+.social-icons li a .fa-twitter{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 100%;
+    background: #1DA1F2;
+    color:#fff;
+    border: 2px solid#1DA1F2;
+    transition: 0.3s;
+}
+.social-icons li a .fa-twitter:hover{
+    background: transparent;
+    color:#1DA1F2;
+    border: 2px solid#1DA1F2;
+}
+.social-icons li a .fa-instagram{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 100%;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    color:#fff;
+    border: 2px solidradial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    transition: 0.3s;
+}
+.social-icons li a .fa-instagram:hover{
+    background: transparent;
+    color: #E7445C;
+    border: 2px solid #E7445C;
+}
+.social-icons li a .fa-pinterest{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 100%;
+    background: #BF1023;
+    color:#fff;
+    border: 2px solid#BF1023;
+    transition: 0.3s;
+}
+.social-icons li a .fa-pinterest:hover{
+    background: transparent;
+    color:#BF1023;
+    border: 2px solid#BF1023;
+}
+.social-icons li a .fa-reddit{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 100%;
+    background: #FF4B08;
+    color:#fff;
+    border: 2px solid#FF4B08;
+    transition: 0.3s;
+}
+.social-icons li a .fa-reddit:hover{
+    background: transparent;
+    color:#FF4B08;
+    border: 2px solid#FF4B08;
+}
+.social-icons li a .fa-wechat{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 100%;
+    background: #10C869;
+    color:#fff;
+    border: 2px solid#10C869;
+    transition: 0.3s;
+}
+.social-icons li a .fa-wechat:hover{
+    background: transparent;
+    color:#10C869;
+    border: 2px solid#10C869;
+}
+.social-icons li a .fa-behance{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 100%;
+    background: #000;
+    color:#fff;
+    border: 2px solid#000;
+    transition: 0.3s;
+}
+.social-icons li a .fa-behance:hover{
+    background: transparent;
+    color:#000;
+    border: 2px solid#000;
+}
